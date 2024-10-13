@@ -1,5 +1,5 @@
-import Header from "../components/header";
-import "../globals.css";
+import Header from "./components/header"
+
 
 export const metadata = {
   title: 'Next.js',
@@ -14,10 +14,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <div className="bg-red-200 ml-48 h-screen flex justify-center items-center text-center">
-          <Header></Header>
-          {children}
-        </div>
+        <Header></Header>
+        {children}
         </body>
     </html>
   )
