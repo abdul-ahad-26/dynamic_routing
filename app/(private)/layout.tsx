@@ -14,20 +14,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <div className="bg-slate-200 text-center h-20 flex justify-center items-center">header</div>
-        <div className="bg-slate-200 w-[200px] float-left h-screen">
-          <ul className="p-5 space-y-4">
-            <li>
-              <Link href="/dashboard">Dashboard</Link>
-            </li>
-            <li>
-            <Link href="/profile">Profile</Link>
-            </li>
-            <li>
-            <Link href="/">Logout</Link>
-            </li>
-          </ul>
-        </div>
         <div className="bg-red-200 ml-48 h-screen flex justify-center items-center text-center">
           {children}
         </div>
